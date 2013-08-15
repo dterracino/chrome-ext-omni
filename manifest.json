@@ -1,0 +1,54 @@
+{
+  "name": "Omni",
+  "version": "0.0.0",
+  "manifest_version": 2,
+
+  "author": "Falcon Dai",
+  "description": "a development tool for playing with chrome extension APIs. Note that some of the APIs are only available in the DEV version of Chrome.",
+
+  "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "alarms",
+    "background",
+    "bookmarks",
+    "browsingData",
+    "chrome://favicon/",
+    "clipboardRead",
+    "clipboardWrite",
+    "contentSettings",
+    "contextMenus",
+    "cookies",
+    "debugger",
+    "fileBrowserHandler",
+    "fontSettings",
+    "geolocation",
+    "history",
+    "identity",
+    "idle",
+    "infobars",
+    "management",
+    "notifications",
+    "pageCapture",
+    "privacy",
+    "proxy",
+    "pushMessaging",
+    "storage",
+    "tabCapture",
+    "tabs",
+    "topSites",
+    "tts",
+    "ttsEngine",
+    "unlimitedStorage",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "main.js"
+    ]
+  },
+  "options_page": "options.html"
+}
